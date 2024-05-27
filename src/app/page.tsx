@@ -23,6 +23,7 @@ export default function Home() {
     arbitrum: false,
   });
 
+  // I removed strict mode for the API calling twice since it does not seem necessary for the sake of this task
   const maxApiCalls = 3; // Setting the maximum number of API calls
   const apiCallTimeout = 1000; // Timeout for API calls in milliseconds
   let apiCallCount = 0;
